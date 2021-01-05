@@ -1,0 +1,58 @@
+.content {height: 100%;width: 100%;background: #F8F8F8;padding:0}
+.listCss{clear:both;background: #FFFFFF; padding:0upx 28upx;margin-top:10upx;}
+.listCss .headtitle{overflow: hidden; padding:10upx; }
+.listCss .headtitle .head{width:120upx;height:120upx;border-radius:70upx;float: right;margin-top:28upx;margin-right:28upx;}
+.listCss .headtitle .personalInfo{width:380upx;float:left;}
+.listCss .headtitle .personalInfo .name{width:411upx;clear:both;margin-bottom:25upx;float:left;color:#646464;font-size:36upx; }
+.listCss .headtitle .personalInfo .companyName{margin-top:35upx;min-width: 380upx; margin-bottom:52upx;float:left;color:#202022;font-size:36upx; margin-left:27upx;}
+.listCss .headtitle .personalInfo .userName{margin-bottom:33upx;float:left;color:#202022;font-weight: 900; font-size:40upx; margin-left:27upx;}
+.listCss .passCheck{clear:both;float:left;width: 100%; }
+.listCss .passCheck .word{margin-left:27upx;float:left; color:#909399;font-size:36upx;margin-bottom: 36upx; }
+.listCss .passCheck .floatRight{float:right; margin-right:28upx;margin-left:9upx;}
+.listCss .passCheck .QRCode{width:50upx;height: 50upx;float:right; margin-top:-10upx; }
+.listGroup{background: #FFFFFF;padding:0upx 28upx;margin-top:10upx;}
+.listGroup .passCheck{clear:both;float:left;width: 99%; border-bottom: 1px solid #EBEEF5;}
+.listGroup .passCheck .word{width:323upx;float:left; color:#202022;font-size:36upx;margin:48upx 0 46upx 0;}
+.listGroup .iconImg{width:50upx;height: 50upx;float:left; margin-right: 27upx;margin-top:46upx;margin-bottom: 37upx; margin-left: 28upx;}
+.listGroup .passCheck .icon{float:right; margin:48upx 0 46upx 0;}
+
+/********************************************* 个人设置样式  start************************************* */
+.border{border-bottom: 1px solid #EEEEEE;}
+.listGroupSetting{margin:0 28upx;padding:27upx 0;font-size: 36upx;display: flex;justify-content:space-between ;}
+.listGroupSetting .headTitle .title,.listGroupSetting .headTitleTwo .title{font-size: 36upx; color: #A0A4AA; }
+.titleImg .headTitle {margin-top:30upx }
+.listGroupSetting .headerImg .head{width: 100upx;height: 100upx; border-radius: 60upx; color: #A0A4AA; }
+.listGroupSetting .headerImg {display: flex;}
+.listGroupSetting .headerImg .head{margin-right:20upx;}
+.listGroupSetting .headerImg .headerIcon{margin-top:20upx;}
+.listGroupSetting .headContent .word{font-size: 36upx; color: #202022; margin-right: 20upx;}
+/* .listGroupSetting .headTitle .word{line-height:100upx;margin-left:10upx;} */
+/* .listGroupSetting .pwd .word{line-height:60upx;margin-left:10upx;}
+.listGroupSetting .headTitle .icon{ margin-left: 20upx;margin-top:20upx;}
+.listGroupTwoSetting {clear:both;margin-top:20upx;background: #FFFFFF;padding:10upx;font-size: 14px;}
+.listGroupTwoSetting .headTitle .wordTitle{line-height:70upx;margin-left:10upx;}
+.listGroupTwoSetting .headTitle .wordContent{line-height:70upx;margin-left:10upx;float: right;}
+.listGroupTwoSetting .headTitle .icon{ margin-left: 20upx;margin-top:20upx;float: right;} */
+/********************************************* 个人设置样式  end************************************* */
+
+
+/********************************************* 机构查看样式  start************************************* */
+.group{overflow: hidden; padding:10upx;font-size: 36px;line-height:80upx;width:99%;}
+.group .wordTitle{margin-left:10upx;float: left;width:150upx;}
+.group .wordContent{margin-left:30upx;float: left;}
+.group  .head{width: 100upx;height: 100upx;margin-left:30upx;}
+/********************************************* 机构查看样式  end*************************************** */
+
+/********************************************* 机构设置样式  start************************************* */
+/*自己添加的样式  start*/
+.organizationTitle{display: flex;}
+.organizationTitle .title{margin-right:28upx;}
+.headerImg .title{margin-top:28upx;}
+.inputSpan{font-size: 36upx;color: #202022;margin-top:4upx;}
+.add-img-del {position: absolute;width: 40upx;height: 40upx;right: 8upx;top: 0upx;border-radius: 20upx;}
+.add-img-item {position: relative;}
+.ApassCheck{display: flex;justify-content: space-between;width: 560upx;}
+.ApassCheck .word{width:323upx; color:#202022;font-size:36upx;}
+/********************************************* 机构设置样式  end*************************************** */
+
+

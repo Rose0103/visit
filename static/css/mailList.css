@@ -1,0 +1,119 @@
+.example-body {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 0;
+		background-color: #ffffff;
+		flex-direction: column;
+		padding: 15px;
+		/* #ifndef APP-NVUE */
+		display: block;
+		/* #endif */
+		padding: 0px;
+	}
+	.inputStr {
+		background: #F2F3F5;
+		border: 0;
+		margin-top: 20upx;
+		border-radius: 44upx;
+		width: 550upx;
+		height: 64upx;
+		margin-left: 28upx;
+	}
+	.uni-searchbar {
+		/* #ifndef APP-NVUE */
+		display: flex;
+		/* #endif */
+		flex-direction: row;
+		position: relative;
+		margin-bottom: 16upx;
+	}
+	.uni-searchbar__box {
+		/* #ifndef APP-NVUE */
+		display: flex;
+		box-sizing: border-box;
+		/* #endif */
+		 overflow: hidden;
+		position: relative;
+		padding: 5px 8px 5px 0px;
+	}
+	.uni-searchbar__box-icon-search {
+		/* #ifndef APP-NVUE */
+		display: flex;
+		/* #endif */
+		margin-left:24upx;
+	}
+	.uni-searchbar__box-search-input {
+		flex: 1;
+	}
+	.uni-searchbar__text-placeholder {
+		margin-left: 5px;
+		color: #A0A4AA;
+		font-size: 36upx;
+	}
+	.uni-searchbar__cancel {
+		color: #202022;
+		margin-left: 58upx;
+		font-weight: 400;
+		font-size: 36upx;
+		line-height: 64upx;
+		margin-top: 20upx;
+	}
+.listGroup{clear:both;float:left;background: #FFFFFF;padding:0upx 28upx;margin-top:10upx;}
+.listTitle{color: #A0A4AA;font-size: 32upx;margin-top:29upx;margin-left:27upx;}
+.listGroup .passCheck{clear:both;float:left;width: 99%; }
+.listGroup .passCheck .word{width:323upx;float:left; color:#202022;font-size:36upx;margin:48upx 0 46upx 0;}
+.listGroup .iconImg{width:50upx;height: 50upx;float:left; margin-right: 27upx;margin-top:46upx;margin-bottom: 37upx; margin-left: 28upx;}
+.listGroup .passCheck .icon{float:right; margin:48upx 0 46upx 0;}
+
+
+/* ******************************通讯录详情列表页*********************************** */
+.detachmentSelect{margin-left:28upx;margin-top:37upx;color: #A0A4AA;}
+.contentSelect{font-size: 36upx;}
+.selectIcon{margin-left:10upx;}
+.cu-list.menu>.cu-item { position: relative;display: -webkit-box;display: -webkit-flex;display: flex;border-bottom: 1px;min-height: 30px; background-color: #ffffff;-webkit-box-pack: justify;-webkit-justify-content: space-between;justify-content: space-between;-webkit-box-align: center;-webkit-align-items: center;align-items: center;}
+.cu-list.menu>.cu-item .content {font-size: 36upx; line-height: 1.6em;-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;background-color: #ffffff;}
+.uni-collapse-cell--open{background-color: #FFFFFF;}
+
+
+.card {/* height: 368upx; */position: relative;display: flex;border-bottom: 1px solid #EBEEF5;margin: 0 28upx 0 100upx;justify-content:space-between ;}
+.headerImg{width:120upx;height:120upx;border-radius: 120upx;margin-top:28upx;}
+.visList{display: flex;margin:30upx 28upx 0 28upx;font-size: 36upx;justify-content: space-between;}
+.visName{color: #202022;margin-bottom: 24upx;}
+.visState{color: #909399;margin-bottom: 24upx;}
+.visitBtn{width:88upx;height:40upx;border: 1px solid #FFB600; color: #FFB600;border-radius: 20upx;font-size: 36upx;text-align: center;margin-top:68upx;}
+.rightBtn{display: flex;justify-content: space-between;}
+.arriveBtn{margin-left: 28upx;color: #FF3434;border-color: #FF3434;}
+
+/* ******************************约见页面列表页*********************************** */
+
+.appointment{display: flex;}
+.appointment .headerImg{margin:28upx 24upx 28upx 28upx}
+.aTitle{color: #A0A4AA;font-size: 36upx;margin-top:10upx;}
+.aName{color: #000000;font-weight: 400;}
+
+.AlistGroup{background: #FFFFFF;padding:0upx 28upx;width: 100%;}
+.titleBox{display: flex;justify-content: space-between;width: 694upx; }
+.AlistTitle{color: #A0A4AA;font-size: 32upx;margin-top:39upx;}
+.AlistGroup .titleBox .icon{ margin-top:10upx;}
+.AlistGroup .ApassCheck{display: flex;justify-content: space-between;width: 694upx; border-bottom: 1px solid #EBEEF5;}
+.AlistGroup .ApassCheck .word{width:323upx; color:#202022;font-size:36upx;margin:42upx 0 29upx 0;}
+.AlistGroup .ApassCheck .secretaryP{margin:42upx 0 29upx 0;}
+.AlistGroup .ApassCheck .icon{ margin:38upx 0 36upx 0;}
+.AlistGroup .ApassCheck .iconTwo{ margin:18upx 0 16upx 0;}
+.uni-input-placeholder {font-size: 36upx;color: #A0A4AA;}
+.input-sel{margin:42upx 0 29upx 0;color: #202022;font-size: 36upx;}
+.btn-row .primary{background: #FFB600;font-size: 36upx;border-radius: 80upx;line-height: 80upx;width:582upx;margin-top: 40upx;}
+.btn-row .cancel{background: #DCDFE6;margin-top: 120upx;}
+uni-button:after{border:0}
+.AlistGroup .colleagues{justify-content: start;}
+.AlistGroup .aTitle{margin-top: 38upx;margin-left: 24upx;color: #202022;}
+.colleaguesName{color: #A0A4AA;}
+.colleagues .headerImg{margin:28upx 24upx 28upx 28upx}
+.colleaguesBtn .cancel{background: #DCDFE6;margin-top: 40upx;}
+
+/* ******************************黑名单列表列表页*********************************** */
+.blackList{margin-left:28upx;}
+.blackList .arriveBtn{margin-left:0;width:128upx;height: 60upx;line-height: 60upx;}
+
+

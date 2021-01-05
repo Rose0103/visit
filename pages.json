@@ -1,0 +1,435 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/index/index",
+		    "style" : {}
+		},{
+			"path": "pages/login/pwdLogin",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/news/newsList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText":"注册"
+			}
+		},
+		{
+			"path": "pages/login/smsLogin",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/application/application-center",
+			"style": {
+				// "navigationBarTitleText":"应用中心",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/application/code",
+			"style": {
+				// "navigationBarTitleText":"应用中心",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/application/help",
+			"style": {
+				"navigationBarTitleText":"使用手册"
+			}
+		},
+		{
+			"path": "pages/application/inside_help",
+			"style": {
+				"navigationBarTitleText":"敏智访客内部手册"
+				
+			}
+		},
+		{
+			"path": "pages/application/make",
+			"style": {
+				"navigationBarTitleText":"敏智访客预约手册"
+			}
+		},
+		
+		{
+			"path": "pages/mailList/mailList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/personalCenter/personal",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/schedule/scheduleList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText":"忘记密码"
+			}
+		}
+       
+    ],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#FE923B",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/news/newsList",
+			"text": "消息",
+			"iconPath": "static/img/msg.png",
+			"selectedIconPath": "static/img/msg_select.png"
+		}, {
+			"pagePath": "pages/schedule/scheduleList",
+			"text": "日程",
+			"iconPath": "static/img/schedule.png",
+			"selectedIconPath": "static/img/schedule_select1.png"
+		},
+		// {
+		// 	"pagePath": "pages/application/application-center",
+		// 	// "text": "应用中心",
+		// 	"iconPath": "static/img/applicationCenter.png",
+		// 	"selectedIconPath": "static/img/application-select.png"
+		// }, 
+		{
+			"pagePath": "pages/application/code",
+			// "text": "应用中心",
+			"iconPath": "static/img/code02.png",
+			"selectedIconPath": "static/img/code01.png"
+		}, 
+		{
+			"pagePath": "pages/mailList/mailList",
+			"text": "通讯录",
+			"iconPath": "static/img/mailList.png",
+			"selectedIconPath": "static/img/mailList_select.png"
+		}, {
+			"pagePath": "pages/personalCenter/personal",
+			"text": "我的",
+			"iconPath": "static/img/my.png",
+			"selectedIconPath": "static/img/my_select.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTextStyle": "black",
+		"titleAlign": "left"
+	},
+	"subPackages": [{
+			"root": "pagesMailList", //通讯录
+			"pages": [{
+					"path": "mailList/addressbook",
+					"style": {
+						"navigationBarTitleText":"单位通讯录"
+					}
+				},
+				{
+					"path": "mailList/appointment",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "mailList/arriveVisit",
+					"style": {
+						"navigationBarTitleText":"到访"
+					}
+				},
+				{
+					"path": "mailList/insideMailDetails",
+					"style": {
+						"navigationBarTitleText":"内部通讯录"
+					}
+				},
+				{
+					"path": "mailList/mailDetails",
+					"style": {
+						"navigationBarTitleText": "个人通讯录"
+					}
+				}
+			]
+		},
+		// {
+		// 	"root":"pagesApplication",
+		// 	"pages": [
+		// 		{
+		// 		"path":"application/help",
+		// 		"style": {
+		// 			"navigationBarTitleText":"使用手册"
+		// 			}
+		// 		},
+		// 		{
+		// 			"path":"application/inside_help",
+		// 			"style":{
+		// 				"navigationBarTitleText":"敏智访客内部手册"
+		// 			}
+		// 		},
+		// 		{
+		// 			"path":"application/make",
+		// 			"style": {
+		// 					"navigationBarTitleText":"敏智访客预约手册"
+		// 				}
+		// 		}
+		// 	]
+		// },
+		{
+			"root": "pagesNews",
+			"pages": [{
+					"path": "news/codeUse",
+					"style": {
+						"navigationBarTitleText": "名片码使用"
+					}
+				},
+				{
+					"path": "news/contacUnit",
+					"style": {
+						"navigationBarTitleText": "单位通讯录"
+					}
+				},
+				{
+					"path": "news/createReservation",
+					"style": {
+						"navigationBarTitleText": "预约信息"
+					}
+				},
+				{
+					"path": "news/addReservation",
+					"style": {
+						"navigationBarTitleText": "加入预约"
+					}
+				}
+			]
+		},
+		{
+			"root": "pagesPersonalCenter",
+			"pages": [{
+					"path": "personalCenter/addOrganization",
+					"style": {
+						"navigationBarTitleText": "加入机构"
+					}
+				},
+				{
+					"path": "personalCenter/blacklist",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "personalCenter/feekback",
+					"style": {
+						"navigationBarTitleText": "分享名片"
+					}
+				},
+				{
+					"path": "personalCenter/modifyPhone",
+					"style": {
+						// "navigationStyle": "custom"
+						"navigationBarTitleText":"修改手机号码"
+					}
+				},
+				{
+					"path": "personalCenter/changePassword",
+					"style": {
+						// "navigationStyle": "custom"
+						"navigationBarTitleText":"修改密码"
+					}
+				},
+				{
+					"path": "personalCenter/organizationExhibition",
+					"style": {
+						"navigationBarTitleText":"机构信息"
+					}
+				},
+				{
+					"path": "personalCenter/organizationRegistration",
+					"style": {
+						"navigationBarTitleText": "机构设置"
+					}
+				},
+				{
+					"path": "personalCenter/joinOrganizationProgressQuery",
+					"style": {
+						"navigationBarTitleText": "申请机构进度查询"
+					}
+				},
+				{
+					"path": "personalCenter/registrationOrganizationProgressQuery",
+					"style": {
+						"navigationBarTitleText": "注册机构进度查询"
+					}
+				},
+				{
+					"path": "personalCenter/personalSettings",
+					"style": {
+						"navigationBarTitleText": "个人设置"
+					}
+				},
+				
+				{
+					"path": "personalCenter/applicantsList",
+					"style": {
+						"navigationBarTitleText": "注册机构进度查询列表"
+					}
+				},
+				{
+					"path": "personalCenter/organizationList",
+					"style": {
+						"navigationBarTitleText": "加入机构进度查询列表"
+					}
+				},
+				{
+				    "path" : "personalCenter/passCode",
+				    "style" : {
+						// "navigationBarTitleText":"通行码"
+					}
+				},
+				{
+				    "path" : "personalCenter/CarNumber",
+				    "style" : {
+						"navigationBarTitleText": "常用车牌"
+					}
+				},
+				{
+				    "path" : "personalCenter/addOffice",
+				    "style" : {
+						"navigationBarTitleText": "办公地址"
+					}
+				}
+			]
+		},
+		{
+			"root": "pagesSchedule",
+			"pages": [{
+				"path": "schedule/scheduleDetails",
+				"style": {
+					"navigationBarTitleText": "日程详情"
+				}
+			}]
+		}
+	],
+	"preloadRule": {
+		"pagesMailList/mailList/addressbook": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesMailList/mailList/appointment": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesMailList/mailList/arriveVisit": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesMailList/mailList/insideMailDetails": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesMailList/mailList/mailDetails": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesNews/news/codeUse": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesNews/news/contacUnit": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesNews/news/addReservation": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesNews/news/createReservation": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesPersonalCenter/personalCenter/applicantsList": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesPersonalCenter/personalCenter/organizationList": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesPersonalCenter/personalCenter/addOrganization": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesPersonalCenter/personalCenter/blacklist": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesPersonalCenter/personalCenter/feekback": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesPersonalCenter/personalCenter/modifyPhone": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesPersonalCenter/personalCenter/organizationExhibition": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesPersonalCenter/personalCenter/organizationRegistration": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesPersonalCenter/personalCenter/organizationRegistration": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesPersonalCenter/personalCenter/personalSettings": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesPersonalCenter/personalCenter/joinOrganizationProgressQuery": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesPersonalCenter/personalCenter/registrationOrganizationProgressQuery": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pagesSchedule/schedule/scheduleDetails": {
+			"network": "all",
+			"packages": ["__APP__"]
+		}
+		// "pagesApplication/application/help":{
+		// 	"network":"all",
+		// 	"packages": ["__App__"]
+		// },
+		// "pagesApplication/application/make":{
+		// 	"network":"all",
+		// 	"packages": ["__App__"]
+		// },
+		// "pagesApplication/application/inside_help":{
+		// 	"network":"all",
+		// 	"packages": ["__App__"]
+		// }
+
+	}
+
+}
